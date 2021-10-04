@@ -1,0 +1,54 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#myForm{
+   text-align: center;
+   margin: 0 auto;
+   width: 400px;
+   height: 250px;
+   color: black;
+   border-radius: 50px;
+}
+
+input{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border: solid 2px lavender;
+    border-radius: 50px
+  
+}
+
+label{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+button{
+    margin-top: 20px;
+    border: solid 1px black;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    background-color: lavender;
+}
+
+button:hover{
+    background: white;
+    color: rgb(197, 197, 228);
+    cursor: pointer;
+}
+
+input:focus{
+    background-color: lavender;
+    color: black;
+   
+}
+
+input:focus::placeholder{
+    color: black;
+}
